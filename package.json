@@ -1,15 +1,7 @@
 {
-  "name": "operagx-nitro-generator",
-  "version": "1.0.1",
-  "description": "Gerador de links para resgatar o Nitro da promoção do Discord e OperaGX",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Mateus Bertan",
-  "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
-    "axios": "^1.6.3"
+    "discord.js": "^14.19.3",
+    "wio.db": "^4.0.22"
   }
 }
